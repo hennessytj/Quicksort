@@ -36,7 +36,7 @@ function sort(a, lo, hi) {
 
 function qsort(a) {
     shuffle(a);
-	sort(a, 0, a.length - 1);
+    sort(a, 0, a.length - 1);
 }
 
 // array and invocation of qs
